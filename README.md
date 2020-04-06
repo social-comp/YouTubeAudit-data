@@ -7,10 +7,10 @@ YouTube audit data was collected during audit experiments---<i>Search</i> and <i
 filename: *queries.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
    The file consists of a complete list of 49 search queries used in the audit study. It contains the following fields: -
    
-   * ```ID:``` unique ID assigned to the search query
-   * ```Topic:``` name of the misinformative search topic (9/11 conspiracy theories, chemtrail conspiracy theory, flat earth, moon landing conspiracy theories or vaccine controversies)
-   * ```Seed Query:``` a collection of keywords representing the search topic
-   * ```Query:``` search query name
+    * ```ID:``` unique ID assigned to the search query
+    * ```Topic:``` name of the misinformative search topic (9/11 conspiracy theories, chemtrail conspiracy theory, flat earth, moon landing conspiracy theories or vaccine controversies)
+    * ```Seed Query:``` a collection of keywords representing the search topic
+    * ```Query:``` search query name
    
 **2. Annotation Files**
 
