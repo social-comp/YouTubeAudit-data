@@ -3,7 +3,7 @@
 YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread accross five files. The description of each file along with their downloadable link is listed below.
 
 <ul>
-  <li><b>Queries file<b></li>[download](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
+  <li><b>Queries file [download](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
     A complete list of 49 search queries used in the audit study
   <li><b>Annotation Files<b></li>
   <li><b>Popularity Metric Files<b></li>
