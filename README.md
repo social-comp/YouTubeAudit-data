@@ -7,7 +7,7 @@ YouTube audit data was collected during audit experiments---<i>Search</i> and <i
 filename: *queries.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
    The file consists of a complete list of 49 search queries used in the audit study. It contains the following fields: -
    
-   * *ID:* unique ID assigned to the search query
+   * *```ID``` unique ID assigned to the search query
    * *Topic:* name of the misinformative search topic (9/11 conspiracy theories, chemtrail conspiracy theory, flat earth, moon landing conspiracy theories or vaccine controversies)
    * *Seed Query:* a collection of keywords representing the search topic
    * *Query:* search query name
@@ -35,7 +35,23 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
 
 
 * filename: *uniqueResults.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.csv?raw=true)
-The file contains a list of 2,943 unique videos along with their annotation values.
+
+The file contains a list of 2,943 unique videos along with their annotation values. It contains the following fields: -
+   * topic	
+   * aria-label	
+   * description	
+   * vid_title	
+   * vid_url	
+   * annotation	
+   * normalized_annotation	
+   * duration	
+   * viewCount	
+   * likeCount	
+   * dislikeCount	
+   * favoriteCount	
+   * commentCount	
+   * popularity
+
 
 **3. Popularity Metric Files**
 
