@@ -5,17 +5,38 @@ YouTube audit data was collected during audit experiments---<i>Search</i> and <i
 **1. Queries file** 
 
 filename: *queries.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
-   The file contains a complete list of 49 search queries used in the audit study.
-**1. Annotation Files**
+   The file consists of a complete list of 49 search queries used in the audit study. It contains the following fields: -
+   
+  * ID: 
+  * Topic:
+  * Seed Query:
+  * Query:
+   
+**2. Annotation Files**
 
 * filname: *all_results.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/all_results.xlsx?raw=true)
-The file contains a collection of 56,475 videos compiled to link the stance of the video (promoting, debunking or neutral) with the personalization attribute audited (age, gender, geolocation or watch-history)
+The file contains a collection of 56,475 videos compiled to link the stance of the video (promoting, debunking or neutral) with the personalization attribute audited (age, gender, geolocation or watch-history). The file contains the following fields: -
+   * qid	
+   * vid_url	
+   * vid_title	
+   * aria-label	
+   * annotation stance	
+   * normalized_annotation	
+   * age_group	gender	
+   * activity	
+   * activity_type	
+   * topic	
+   * geolocation	
+   * geo_temperature	
+   * component_name	
+   * order	
+   * vid_order
 
 
 * filename: *uniqueResults.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.csv?raw=true)
 The file contains a list of 2,943 unique videos along with their annotation values.
 
-**1. Popularity Metric Files**
+**3. Popularity Metric Files**
 
 filename: *popularity metric.zip*[(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/popularity_metric.zip?raw=true)
 This folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file consists of the videos that were used to create watch histories of Google accounts for our watch experiments. We also provide video metadata (duration, view count, like count, dislike count, favorite count and comment count) as well as populatity metric values for these videos.
