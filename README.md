@@ -35,7 +35,6 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
 
 
 * filename: *uniqueResults.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.csv?raw=true)
-
 The file contains a list of 2,943 unique videos along with their annotation values. It contains the following fields: -
    * ```topic:```	misinformative search topic 
    * ```aria-label:``` aria-label of the YouTube video
