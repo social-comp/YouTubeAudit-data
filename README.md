@@ -14,7 +14,7 @@ filename: *queries.xlsx* [(download)](https://github.com/social-comp/YouTubeAudi
    
 **2. Annotation Files**
 
-* filname: *all_results.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/all_results.xlsx?raw=true)
+* filname: *all_results.csv* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/all_results.csv?raw=true)
 The file contains a collection of 56,475 videos compiled to link the stance of the video (promoting, debunking or neutral) with the personalization attribute audited (age, gender, geolocation or watch-history). The file contains the following fields: -
    * ```qid:``` unique ID assigned to the search query
    * ```vid_url:``` YouTube video URL	
@@ -34,7 +34,7 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
    * ```vid_order```
 
 
-* filename: *uniqueResults.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.xlsx?raw=true)
+* filename: *uniqueResults.csv* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.csv?raw=true)
 The file contains a list of 2,943 unique videos along with their annotation values. It contains the following fields: -
    * ```topic:```	misinformative search topic 
    * ```aria-label:``` aria-label of the YouTube video
@@ -61,7 +61,7 @@ This folder consists of 15 files (5 misinformative topics X 3 misinformative sta
 
 **4. SERP-MS scores** 
 
-filename: *all_Top10_SERP-MM* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/all_Top10_SERP-MM.xlsx?raw=true)
+filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv)
 SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. The file contains the following fields: -
    * ```qid:``` unique ID assigned to the search query
    * ```query:``` search query name	
