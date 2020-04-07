@@ -1,6 +1,6 @@
 ## Data Description
 
-YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread accross four files. The description of each file along with their downloadable link is listed below.
+YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread across four files. The description of each file along with their downloadable link is listed below.
 
 **1. Queries file** 
 
