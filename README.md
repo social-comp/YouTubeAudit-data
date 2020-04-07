@@ -1,6 +1,6 @@
 ## Data Description
 
-YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread accross five files. The description of each file along with their downloadable link is listed below.
+YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread accross four files. The description of each file along with their downloadable link is listed below.
 
 **1. Queries file** 
 
@@ -22,14 +22,14 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
    * ```aria-label:``` aria-label of the YouTube video	
    * ```annotation stance:``` stance assigned to the video by the annotators. The annotations are based on 9-point annotation scale ranging from -1 to 7
    * ```normalized_annotation:``` 3-point normalized scores with values -1(Promoting) , 0 (Neutral) and 1 (Debunking).
-   * ```age_group:``` age group set while creating the google account This field can take values 1 (<18yrs), 2 (18-34yrs), 3 (35-50yrs) and >50yrs)
+   * ```age_group:``` age group set while creating the google account This field can take values 1 (<18yrs), 2 (18-34yrs), 3 (35-50yrs) and 4 (>50yrs)
    * ```gender:``` gender set while creating google account (male/female)
    * ```activity:``` audit experiment during which the video was collected (search/watch)
    * ```activity_type:``` personalization attribute audited (demographics/geolocation)
    * ```topic:``` name of the misinformative search topic
    * ```geolocation:``` geolocation where the experiment was performed
    * ```geo_temperature:``` type of geolocation (hot/cold)
-   * ```component_name:``` YouTube component audited/collected (Top5/SearchResults,UpNext)
+   * ```component_name:``` YouTube component audited/collected (Top5,SearchResults or UpNext)
    * ```order```	
    * ```vid_order```
 
