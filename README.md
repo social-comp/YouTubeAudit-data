@@ -16,7 +16,13 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
    
    <ID	Topic	Seed Query	Query 0	9/11 conspiracy theories	11-Sep	11-Sep>
    
-      
+      ```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 **2. Annotation Files**
 
 * filname: *all_results.csv* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/all_results.csv?raw=true)
