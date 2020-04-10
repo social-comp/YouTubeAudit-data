@@ -4,7 +4,7 @@ YouTube audit data was collected during audit experiments---<i>Search</i> and <i
 
 **1. Queries file** 
 
-filename: *queries.xlsx* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/queries.xlsx?raw=true)
+filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/queries.csv)
    The file consists of a complete list of 49 search queries used in the audit study. It contains the following fields: -
    
   * ```ID:``` unique ID assigned to the search query
@@ -79,7 +79,7 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
 ## Citation
 
 If you use the dataset in your research, please cite the following paper:
-Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing.
+> Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing.
 
 
 
