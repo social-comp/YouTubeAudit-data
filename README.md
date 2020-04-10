@@ -11,6 +11,10 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
   * ```Topic:``` name of the misinformative search topic (9/11 conspiracy theories, chemtrail conspiracy theory, flat earth, moon landing conspiracy theories or vaccine controversies)
   * ```Seed Query:``` a collection of keywords representing the search topic
   * ```Query:``` search query name
+   A snippet:
+   ```ID	Topic	Seed Query	Query
+0	9/11 conspiracy theories	11-Sep	11-Sep
+ ```
    
 **2. Annotation Files**
 
@@ -76,10 +80,10 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
    * ```geo_temperature:``` type of geolocation (hot/cold)
    * ```normalized_smm:``` SERP-MM score of the SERP
 
-## Citation
+## Citation Information
 
 If you use the dataset in your research, please cite the following paper:
-> Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing.
+> Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing. 2020.
 
 
 
