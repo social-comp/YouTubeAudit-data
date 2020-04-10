@@ -80,7 +80,12 @@ topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annot
 foldername: *popularity_metric.zip* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/popularity_metric.zip?raw=true)
 This folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file consists of the videos that were used to create watch histories of Google accounts for our watch experiments. We also provide video metadata (duration, view count, like count, dislike count, favorite count and comment count) as well as populatity metric values for these videos.
 
+A snippet:
 
+```html wrap
+Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCount	dislikeCount	favoriteCount	commentCount	popularity
+17	0	9/11 conspiracy theories	11-Sep	https://www.youtube.com/watch?v=MNyjZJOEXpE	How the 9/11 terror attacks unfolded | Telegraph Time Tunnel	How the 9/11 terror attacks unfolded | Telegraph Time Tunnel by The Telegraph 2 years ago 2 minutes, 8 seconds 3,589,933 views	-1	128	3987854	8264	2786	0	1	3998905
+```
 
 **4. SERP-MS scores** 
 
