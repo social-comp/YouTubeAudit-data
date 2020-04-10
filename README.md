@@ -11,7 +11,9 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
   * ```Topic:``` name of the misinformative search topic (9/11 conspiracy theories, chemtrail conspiracy theory, flat earth, moon landing conspiracy theories or vaccine controversies)
   * ```Seed Query:``` a collection of keywords representing the search topic
   * ```Query:``` search query name
+  
    A snippet:
+   
    ```ID	Topic	Seed Query	Query
 0	9/11 conspiracy theories	11-Sep	11-Sep
  ```
