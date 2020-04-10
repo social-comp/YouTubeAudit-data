@@ -14,9 +14,9 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
   
    A snippet:
    
-   <ID	Topic	Seed Query	Query 0	9/11 conspiracy theories	11-Sep	11-Sep>
+   ```ID	Topic	Seed Query	Query; 0	9/11 conspiracy theories	11-Sep	11-Sep>```
    
-      `{  "firstName": "John",   "lastName": "Smith",  "age": 25}`
+    
 
 
 
