@@ -42,6 +42,15 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
    * ```order```	
    * ```vid_order```
 
+A snippet:
+
+```html wrap
+qid	vid_url	vid_title	aria-label	annotation	stance	normalized_annotation	age_group	gender	activity	activity_type	topic	geolocation	geo_temperature	component_name	order	vid_order
+
+
+0	https://www.youtube.com/watch?v=9gCN7pIX3Es	Rare video from ground zero on 9/11	Rare video from ground zero on 9/11 by 60 Minutes 5 months ago 3 minutes, 14 seconds 1,072,478 views	0		0	3	Female	Search	Demographics	all	us-east1-b (South Carolina)		SearchResults
+```
+
 
 * filename: *uniqueResults.csv* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/uniqueResults.csv?raw=true)
 The file contains a list of 2,943 unique videos along with their annotation values. It contains the following fields: -
@@ -92,6 +101,14 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
    * ```geolocation:``` geolocation where the experiment was performed
    * ```geo_temperature:``` type of geolocation (hot/cold)
    * ```normalized_smm:``` SERP-MM score of the SERP
+   
+   A snippet:
+
+```html wrap
+qid	query	query_stance	topic	age_group	gender	activity	activity_type	stance	geolocation	geo_temperature	normalized_smm
+
+0	11-Sep	0	911	2	Female	Watch	Geolocation	neutral	Georgia	cold	0
+```
 
 ## Citation Information
 
