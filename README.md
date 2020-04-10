@@ -14,10 +14,7 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
   
    A snippet:
    
-   ```
-   ID	Topic	Seed Query	Query; 0	9/11 conspiracy theories	11-Sep	11-Se;
-   ```
-   
+  
     
 
 
@@ -96,6 +93,11 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
 If you use the dataset in your research, please cite the following paper:
 > Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing. 2020.
 
+
+ ```
+   ID	Topic	Seed Query	Query; 0	9/11 conspiracy theories	11-Sep	11-Se;
+   
+   
 
 
 
