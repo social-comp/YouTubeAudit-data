@@ -76,10 +76,10 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
    * ```geo_temperature:``` type of geolocation (hot/cold)
    * ```normalized_smm:``` SERP-MM score of the SERP
 
-##Citation
+## Citation
 
-If you use the dataset in your research, please cite the following paper:
-Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing.
+```If you use the dataset in your research, please cite the following paper:
+Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing.```
 
 
 
