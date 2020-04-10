@@ -17,7 +17,6 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
   
 ```html wrap
 ID	Topic	Seed Query	Query                                                                                                                                    
-   
 0	9/11 conspiracy theories	11-Sep	11-Sep
 ```
 
