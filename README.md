@@ -96,6 +96,7 @@ If you use the dataset in your research, please cite the following paper:
 
  ```
    ID	Topic	Seed Query	Query; 0	9/11 conspiracy theories	11-Sep	11-Se;
+   ```
    
    
 
