@@ -15,12 +15,9 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
    A snippet:
    
   
-```html wrap
-ID	Topic	Seed Query	Query                                                                                                               0	9/11 conspiracy theories	11-Sep	11-Sep
+```html
+ID	Topic	Seed Query	Query                                                                                                                0	9/11 conspiracy theories	11-Sep	11-Sep
 ```
-
-
-----------------------------------------
 
 **2. Annotation Files**
 
