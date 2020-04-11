@@ -16,8 +16,8 @@ filename: *queries.csv* [(download)](https://raw.githubusercontent.com/social-co
    
   
 ```html
-ID	Topic	Seed Query	Query                                                                                                          
-0	9/11 conspiracy theories	11-Sep	11-Sep
+ID    Topic     Seed Query   Query                                                                                                      
+0     9/11     conspiracy theories     11-Sep   11-Sep
 ```
 
 **2. Annotation Files**
@@ -68,7 +68,7 @@ The file contains a list of 2,943 unique videos along with their annotation valu
 
 A snippet:
 
-```html wrap
+```html
 topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annotation	duration	viewCount	likeCount	dislikeCount	favoriteCount	commentCount	popularity
 911	Haunting, never-before-seen images of Ground Zero by CBS 7 years ago 3 minutes, 57 seconds 2,385,714 views	A few days after 9/11, FEMA sent its own cameras down into the ruins of the World Trade Center, filming for over 8 months and getting images no one else was able to get. CBS News justice and homeland security correspondent Bob Orr reports.	Haunting, never-before-seen images of Ground Zero	https://www.youtube.com/watch?v=coqYraFn-B4	0		0	237	2396779	8366	718	0	2649	2408512
 ```
@@ -81,7 +81,7 @@ This folder consists of 15 files (5 misinformative topics X 3 misinformative sta
 
 A snippet:
 
-```html wrap
+```html
 Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCount	dislikeCount	favoriteCount	commentCount	popularity
 17	0	9/11 conspiracy theories	11-Sep	https://www.youtube.com/watch?v=MNyjZJOEXpE	How the 9/11 terror attacks unfolded | Telegraph Time Tunnel	How the 9/11 terror attacks unfolded | Telegraph Time Tunnel by The Telegraph 2 years ago 2 minutes, 8 seconds 3,589,933 views	-1	128	3987854	8264	2786	0	1	3998905
 ```
@@ -105,7 +105,7 @@ SERP-MS scores (SERP Misinformation Score) of the search engine results page ret
    
    A snippet:
 
-```html wrap
+```html
 qid	query	query_stance	topic	age_group	gender	activity	activity_type	stance	geolocation	geo_temperature	normalized_smm
 0	11-Sep	0	911	2	Female	Watch	Geolocation	neutral	Georgia	cold	0
 ```
