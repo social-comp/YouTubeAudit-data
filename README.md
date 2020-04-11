@@ -44,7 +44,8 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
 A snippet:
 
 ```html
-qid	vid_url	vid_title	aria-label	annotation	stance	normalized_annotation	age_group	gender	activity	activity_type	topic	geolocation	geo_temperature	component_name	order	vid_order
+qid	vid_url	vid_title	aria-label	annotation	stance	normalized_annotation	age_group	gender	activity	activity_type	topic	geolocation	geo_temperature	component_name	order	vid_order                                                         
+
 0	https://www.youtube.com/watch?v=9gCN7pIX3Es	Rare video from ground zero on 9/11	Rare video from ground zero on 9/11 by 60 Minutes 5 months ago 3 minutes, 14 seconds 1,072,478 views	0		0	3	Female	Search	Demographics	all	us-east1-b (South Carolina)		SearchResults
 ```
 
@@ -70,6 +71,7 @@ A snippet:
 
 ```html
 topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annotation	duration	viewCount	likeCount	dislikeCount	favoriteCount	commentCount	popularity
+
 911	Haunting, never-before-seen images of Ground Zero by CBS 7 years ago 3 minutes, 57 seconds 2,385,714 views	A few days after 9/11, FEMA sent its own cameras down into the ruins of the World Trade Center, filming for over 8 months and getting images no one else was able to get. CBS News justice and homeland security correspondent Bob Orr reports.	Haunting, never-before-seen images of Ground Zero	https://www.youtube.com/watch?v=coqYraFn-B4	0		0	237	2396779	8366	718	0	2649	2408512
 ```
 
