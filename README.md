@@ -43,7 +43,7 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
 
 A snippet:
 
-```html wrap
+```html
 qid	vid_url	vid_title	aria-label	annotation	stance	normalized_annotation	age_group	gender	activity	activity_type	topic	geolocation	geo_temperature	component_name	order	vid_order
 0	https://www.youtube.com/watch?v=9gCN7pIX3Es	Rare video from ground zero on 9/11	Rare video from ground zero on 9/11 by 60 Minutes 5 months ago 3 minutes, 14 seconds 1,072,478 views	0		0	3	Female	Search	Demographics	all	us-east1-b (South Carolina)		SearchResults
 ```
