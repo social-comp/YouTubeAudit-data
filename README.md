@@ -92,7 +92,17 @@ Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCo
 
 filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv) The file contains the SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. SERP-MS is a scoring metric that captures the amount of misinformation while taking into account the ranking of search results. It can be calculated as : -
 
-![alt text](formula1.PNG) ;where r is the rank of the search result, n is the number of search results present in the SERP and x is the annotation value (-1: promoting, 0:neutral or 1:debunking). We only consider the top 10 search results for computing SERP-MS. Thus, SERP-MS is a continuous value ranging between -1 (all top 10 videos are debunking) to +1 (all top 10 are promoting).
+![alt text](formula1.PNG) 
+
+<p align="center">
+  <img width="200" height="100" src=formula1.PNG>
+</p>
+
+<p align="center">
+  <img width="200" height="100" src="formula1.PNG">
+</p>
+
+where <i>r</i> is the rank of the search result, <i>n</i> is the number of search results present in the SERP and <i>x</i> is the annotation value (-1: promoting, 0:neutral or 1:debunking). We only consider the top 10 search results for computing SERP-MS. Thus, SERP-MS is a continuous value ranging between -1 (all top 10 videos are debunking) to +1 (all top 10 are promoting).
 
 The file contains the following fields: -
    * ```qid:``` unique ID assigned to the search query
