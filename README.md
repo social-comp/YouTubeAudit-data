@@ -79,7 +79,7 @@ topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annot
 **3. Popularity Metric Files**
 
 foldername: *popularity_metric.zip* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/popularity_metric.zip?raw=true)
-In our <i>watch</i> audit experiment, we build the history of YouTube accounts by automatically making them watch videos that are either all debunking, neutral or promoting the particular misinformative topic under audit investigation. We select 20 most popular videos for each of the misinformative topics. Popularity is calculated as the engagement accumulated by the video at the time of our experimental runs. It is calculated as: -
+In our <i>watch</i> audit experiment, we build the history of YouTube accounts by automatically making them watch videos that are either all debunking, neutral or promoting the particular misinformative topic under audit investigation. We select 20 most popular videos for each of the misinformative topics. We define popularity of a video as the engagement accumulated by that video at the time of our experimental runs. It is calculated as: -
 
 <i>popularity metric = like count + dislike count + view count + comment count + favorite count</i>
 
