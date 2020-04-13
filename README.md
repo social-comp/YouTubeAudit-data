@@ -1,6 +1,6 @@
 ## Data Description
 
-YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits to examine YouTube's search and recommendation algorithms, respectively. The data is spread across four files. The description of each file along with their downloadable link is listed below.
+YouTube audit data was collected during audit experiments---<i>Search</i> and <i>Watch</i> audits. The audit experiments shed light on the phenomenon of algorithmically surfaced misinformation on YouTube and how that is affected by penalization attributes (gender, age, geolocation, and watch history). While <i>Search</i> audits are conducted using brand new user accounts, <i>Watch</i> audits examine user accounts that have built watch history by systematically watching either all promoting, neutral, or debunking videos of potentially misinformative topics. Our experiments collect 56,475 YouTube videos, spread across five popular misinformative topics and  correspond to three major components of YouTube: videos present in <i>search results</i>, <i>Up-Next</i>, and <i>Top 5</i> recommendations. The audit data is spread across four files. The description of each file along with their downloadable link is listed below.
 
 **1. Queries file** 
 
@@ -79,7 +79,7 @@ topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annot
 **3. Popularity Metric Files**
 
 foldername: *popularity_metric.zip* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/popularity_metric.zip?raw=true)
-This folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file consists of the videos that were used to create watch histories of Google accounts for our watch experiments. We also provide video metadata (duration, view count, like count, dislike count, favorite count and comment count) as well as populatity metric values for these videos.
+This folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file consists of video URLs that were used to create watch histories of Google accounts for our watch experiments. We also provide video metadata (duration, view count, like count, dislike count, favorite count and comment count) as well as populatity metric values for these videos.
 
 A snippet:
 
@@ -90,8 +90,13 @@ Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCo
 
 **4. SERP-MS scores** 
 
-filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv)
-SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. The file contains the following fields: -
+filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv) The file contains the SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. SERP-MS is a scoring metric that captures the amount of misinformation while taking into account the ranking of search results. It can be calculated as : -
+
+SERP-MS = $\sum_{r=1}^{n} (x_i * (n - r+1)/0.5(n * (n + 1))$
+
+$\frac{\sum_{r=1}^{n} {(x_i * (n - r+1))} }{ \frac{n * (n + 1)}{2}}$; where $r$ is the rank of the search result and $n$ is the number of search results present in the SERP. We only consider the top 10 search results for computing SERP-MS. Thus, SERP-MS is a continuous value ranging between -1 (all top 10 videos are debunking) to +1 (all top 10 are promoting).
+
+The file contains the following fields: -
    * ```qid:``` unique ID assigned to the search query
    * ```query:``` search query name	
    * ```query_stance:``` stance assigned to the search query. It can take 3 valuues namely, -1(Promoting) , 0 (Neutral) and 1 (Debunking)
