@@ -99,16 +99,7 @@ The big Greek `Σ` (Sigma) is for [Summation](https://en.wikipedia.org/wiki/Summ
 
 ![sigma](http://latex.codecogs.com/svg.latex?%5Csum_%7Bi%3D1%7D%5E%7B100%7Di)
 
-<!-- \sum_{i=1}^{100}i -->
-
-Here, `i=1` says to start at `1` and end at the number above the Sigma, `100`. These are the lower and upper bounds, respectively. The *i* to the right of the "E" tells us what we are summing. In code:
-
-```js
-var sum = 0
-for (var i = 1; i <= 100; i++) {
-  sum += i
-}
-```
+<!-- \sum_{r=1}^{n}(x_i * (n - r+1))/(0.5(n * (n + 1)) -->
 
 
 
