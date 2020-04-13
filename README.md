@@ -94,7 +94,9 @@ filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com
 
 
 
-SERP-MS = 
+SERP-MS = ![alt text](https://github.com/social-comp/YouTubeAudit-data/blob/master/formula.PNG)
+
+![alt text](formula.PNG)
 
 $\frac{\sum_{r=1}^{n} {(x_i * (n - r+1))} }{ \frac{n * (n + 1)}{2}}$; where $r$ is the rank of the search result and $n$ is the number of search results present in the SERP. We only consider the top 10 search results for computing SERP-MS. Thus, SERP-MS is a continuous value ranging between -1 (all top 10 videos are debunking) to +1 (all top 10 are promoting).
 
