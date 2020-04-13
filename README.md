@@ -101,7 +101,8 @@ The big Greek `Σ` (Sigma) is for [Summation](https://en.wikipedia.org/wiki/Summ
 
 <!-- \sum_{r=1}^{n}(x_i * (n - r+1))/(0.5(n * (n + 1)) -->
 
-
+<!-- \sum_{i=1}^{100}i -->
+<!-- \sum_{i=1}^{100}i -->
 
 SERP-MS = $$\sum_{r=1}^{n} (x_i * (n - r+1)/0.5(n * (n + 1))$$ #sigma  $#sigma$
 
