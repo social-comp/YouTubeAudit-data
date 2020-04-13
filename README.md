@@ -65,7 +65,7 @@ The file contains a list of 2,943 unique videos along with their annotation valu
    * ```dislikeCount:``` dislike of the YouTube video
    * ```favoriteCount:``` favorite count of the YouTube video
    * ```commentCount:``` comment count of the YouTube video
-   * ```popularity:``` popularity metric value of the YouTube video
+   * ```popularity:``` <i>popularity metric</i> value (see 3 for more details) of the YouTube video
 
 A snippet:
 
@@ -79,7 +79,11 @@ topic	aria-label	description	vid_title	vid_url	annotation	notes	normalized_annot
 **3. Popularity Metric Files**
 
 foldername: *popularity_metric.zip* [(download)](https://github.com/social-comp/YouTubeAudit-data/blob/master/popularity_metric.zip?raw=true)
-This folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file consists of video URLs that were used to create watch histories of Google accounts for our watch experiments. We also provide video metadata (duration, view count, like count, dislike count, favorite count and comment count) as well as populatity metric values for these videos.
+In our <i>watch</i> audit experiment, we build the history of YouTube accounts by automatically making them watch videos that are either all debunking, neutral or promoting the particular misinformative topic under audit investigation. We select 20 most popular videos for each of the misinformative topics. Popularity is calculated as the engagement accumulated by the video at the time of our experimental runs. It is calculated as: -
+
+                popularity metric = like count + dislike count + view count + comment count + favorite count
+
+The folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file contains a list of video URLs that were used to build YouTube accounts' watch history along with video metadata (duration, view count, like count, dislike count, favorite count and comment count) and <i>populatity metric</> value for every video.
 
 A snippet:
 
@@ -91,8 +95,6 @@ Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCo
 **4. SERP-MS scores** 
 
 filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv) The file contains the SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. SERP-MS is a scoring metric that captures the amount of misinformation while taking into account the ranking of search results. It can be calculated as : -
-
-![alt text](formula1.PNG) 
 
 <p align="center">
   <img src="formula2.PNG">
