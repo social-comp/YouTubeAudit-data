@@ -93,18 +93,8 @@ Id	qid	topic	query	vid_url	vid_title	aria-label	Stance	duration	viewCount	likeCo
 filename: *all_Top10_SERP-MM.csv* [(download)](https://raw.githubusercontent.com/social-comp/YouTubeAudit-data/master/all_Top10_SERP-MM.csv) The file contains the SERP-MS scores (SERP Misinformation Score) of the search engine results page retrieved during the audit experiments. SERP-MS is a scoring metric that captures the amount of misinformation while taking into account the ranking of search results. It can be calculated as : -
 
 
-## sigma 
 
-The big Greek `Σ` (Sigma) is for [Summation](https://en.wikipedia.org/wiki/Summation). In other words: summing up some numbers.
-
-![sigma](http://latex.codecogs.com/svg.latex?%5Csum_%7Bi%3D1%7D%5E%7B100%7Di)
-
-<!-- \sum_{r=1}^{n}(x_i * (n - r+1))/(0.5(n * (n + 1)) -->
-
-<!-- \sum_{i=1}^{100}i -->
-<!-- \sum_{i=1}^{100}i -->
-
-SERP-MS = $$\sum_{r=1}^{n} (x_i * (n - r+1)/0.5(n * (n + 1))$$ #sigma  $#sigma$
+SERP-MS = 
 
 $\frac{\sum_{r=1}^{n} {(x_i * (n - r+1))} }{ \frac{n * (n + 1)}{2}}$; where $r$ is the rank of the search result and $n$ is the number of search results present in the SERP. We only consider the top 10 search results for computing SERP-MS. Thus, SERP-MS is a continuous value ranging between -1 (all top 10 videos are debunking) to +1 (all top 10 are promoting).
 
