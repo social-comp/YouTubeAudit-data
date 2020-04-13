@@ -83,7 +83,7 @@ In our <i>watch</i> audit experiment, we build the history of YouTube accounts b
 
                 popularity metric = like count + dislike count + view count + comment count + favorite count
 
-The folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file contains a list of video URLs that were used to build YouTube accounts' watch history along with video metadata (duration, view count, like count, dislike count, favorite count and comment count) and <i>populatity metric</> value for every video.
+The folder consists of 15 files (5 misinformative topics X 3 misinformative stance). Each file contains a list of video URLs that were used to build YouTube accounts' watch history along with video metadata (duration, view count, like count, dislike count, favorite count and comment count) and <i>populatity metric</i> value for every video.
 
 A snippet:
 
