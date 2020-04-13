@@ -38,7 +38,7 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
    * ```geolocation:``` geolocation where the experiment was performed
    * ```geo_temperature:``` type of geolocation (hot/cold)
    * ```component_name:``` YouTube component audited/collected (Top5,SearchResults or UpNext)
-   * ```order:```	any record that has an order <i>o</i> indicates that it was gathered from the video page of <i>oth</i> watched video. Recall that in our watch audits every account builds up their account history by watching 20 most populr videos
+   * ```order:```	any record that has an order <i>o</i> indicates that it was gathered from the video page of <i>oth</i> watched video. Recall that in our watch audits every account builds up their account history by watching 20 most popular videos
    * ```vid_order:``` order of the video in top 5 recommendation list
 
 A snippet:
