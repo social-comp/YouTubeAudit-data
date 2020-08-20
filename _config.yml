@@ -4,6 +4,6 @@ theme: jekyll-theme-minimal
 #description: "Data to accompany the CSCW paper Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube." \
 #"link: https://dl.acm.org/doi/10.1145/3392854"
 description: |
-    System for storing beneficiaries' health insurance information for the
-    Third-Party Liability group. Update active coverage or query the Carrier
-    Code Master File.
+    Data to accompany the CSCW paper Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube.
+    link: https://dl.acm.org/doi/10.1145/3392854
+    [link](https://dl.acm.org/doi/10.1145/3392854)
