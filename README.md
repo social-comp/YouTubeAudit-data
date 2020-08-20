@@ -126,7 +126,7 @@ qid	query	query_stance	topic	age_group	gender	activity	activity_type	stance	geol
 
 ## Citation Information
 
-If you use the dataset in your research, please cite the following paper:
+If you use the dataset in your research, please cite the following paper [(link)](https://dl.acm.org/doi/10.1145/3392854):
 > Eslam Hussein*, Prerna Juneja*, Tanushree Mitra. "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube". The 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing. 2020.
 
 
