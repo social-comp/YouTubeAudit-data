@@ -3,7 +3,10 @@ theme: jekyll-theme-minimal
 #show_downloads: true
 description: "Data to accompany the CSCW paper  Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube." #https://dl.acm.org/doi/10.1145/3392854
 navbar-links:
+  Services: "services"
   Resources:
-    - CSCW paper: "https://dl.acm.org/doi/10.1145/3392854"
+   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+   - Learn markdown: "http://www.markdowntutorial.com/"
+   - GitHub Pages: "https://pages.github.com/"
 
   
