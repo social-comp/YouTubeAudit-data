@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
-redirect: https://dl.acm.org/doi/10.1145/3392854
-description: "Data to accompany the CSCW paper  Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube."
+#redirect: https://dl.acm.org/doi/10.1145/3392854
+show_downloads: true
+description: "Data to accompany the CSCW paper  Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube." #https://dl.acm.org/doi/10.1145/3392854
+navbar-links:
+  Resources:
+    - CSCW paper: "https://dl.acm.org/doi/10.1145/3392854"
+  
