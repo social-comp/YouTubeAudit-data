@@ -27,7 +27,7 @@ The file contains a collection of 56,475 videos compiled to link the stance of t
    * ```vid_url:``` YouTube video URL	
    * ```vid_title:``` title of the YouTube video
    * ```aria-label:``` aria-label of the YouTube video	
-   * ```annotation stance:``` stance assigned to the video by the annotators. The annotations are based on 9-point annotation scale ranging from -1 to 7
+   * ```annotation stance:``` stance of the video watched during <i>Watch</i> audits. 
    * ```normalized_annotation:``` 3-point normalized scores with values -1(Promoting) , 0 (Neutral) and 1 (Debunking).
    * ```age_group:``` age group set while creating the google account This field can take values 1 (<18yrs), 2 (18-34yrs), 3 (35-50yrs) and 4 (>50yrs)
    * ```gender:``` gender set while creating google account (male/female)
